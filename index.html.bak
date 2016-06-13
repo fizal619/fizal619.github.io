@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/favicon.ico"> 
 	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
@@ -23,26 +23,26 @@
 		</div>
 
 	</header>
-
+	
 	<div id="content">
 		<hr />
 
 		<section class="intro">
 			<p>
-				Tinkering with hardware and software from an early age; I was first exposed to the power of programming software solutions with my favorite languages (HTML, CSS, PHP, Python & JavaScript), which fueled my love for solving problems and building new things.
+				Tinkering with hardware and software from an early age; I was first exposed to the power of programming software solutions with my favorite languages (HTML, CSS, PHP, Python & JavaScript), which fueled my love for solving problems and building new things. 
 			</p>
 		</section>
 
 		<hr/>
 		<h2>Here are some websites I've done work on: </h2>
 		<p> Be sure to ask about them when we have coffee.</p>
-
+		
 		<section class="row">
 			<div class="photo-grid">
 				<a href="http://onegroundfootwear.com" target="blank" class="col-2"><img src="img/oneground.png" /></a>
 				<a href="http://incl.us" target="blank" class="col-2"><img src="img/inclusion.png" /></a>
 			</div>
-		</section>
+		</section> 
 
 		<section class="row">
 			<div class="col">
@@ -64,20 +64,25 @@
 		<section class="row">
 			<div class="col-full">
 				<p class="footer">
-
+										
 				</p>
 			</div>
 		</section>
-
+ 
 	</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js"></script>
-
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	if (!window.jQuery) 
+	{
+	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
+	}
+	</script>
 
 	<script src="js/vendor/jquery.fluidbox.min.js"></script>
 	<script src="js/main.js"></script>
 
-
+	
 
 </body>
 </html>
