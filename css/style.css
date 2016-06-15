@@ -1,0 +1,59 @@
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+body{
+  color:white;
+}
+
+.quarter h1{
+  text-align:center;
+  font-size: 1.8em;
+  padding:10% 10% 0% 10%;
+}
+.quarter p{
+  font-size: 1em;
+  text-align: left;
+  padding:0% 10% 10% 10%;
+
+
+}
+
+.quarter {
+  width:100%;
+  height: 50vh;
+}
+
+.second{
+  margin-top: 10px;
+  height: 40vh;
+}
+
+#me{
+  background-color: #4CAF50;
+}
+
+#progress{
+  background-color: #FF5722;
+}
+
+#complete{
+  background-color: #f44336;
+}
+
+#connect{
+  background-color:#3F51B5;
+}
