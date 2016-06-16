@@ -29,12 +29,20 @@
   top: 35%;
 }
 
+#me p{
+  background-color: #4CAF50;
+}
+
+#me h1{
+  background-color: #4CAF50;
+}
 
 #me img{
   border-radius:50%;
 /*  border:10px #8BC34A solid;
 */  width:35%;
   height:auto;
+  
 }
 
 h1{
