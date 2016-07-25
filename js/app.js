@@ -4,7 +4,7 @@ $(function(){
 
   //declare some stuff
   let languages = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Python', 'Node.js', 'React.js', 'GIT', 'API'];
-  
+
 
   //randomly spawn these then fade them out
   function drawLanguage(){
@@ -16,7 +16,7 @@ $(function(){
   	h2.addClass('language');
 
   	// determine the random x and y
-  	var posX = Math.floor(Math.random() * ($('.first').width() - 50));
+  	var posX = Math.floor(Math.random() * ($('.first').width() - $('.first').width()/2 - 100 ));
     var posY = Math.floor(Math.random() * ($('.first').height() - 50));
     h2.css('left', posX + 'px');
     h2.css('top', posY + 'px');
@@ -28,5 +28,5 @@ $(function(){
 
   }
 
-  setInterval(drawLanguage, 1000);
+  setInterval(drawLanguage, 1900);
 });
