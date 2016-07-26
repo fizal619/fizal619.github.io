@@ -26,7 +26,12 @@ $(function(){
       $(this).remove();
     });
 
+    //scroll
+    let projects = document.querySelector('#projects')
+    projects.scrollBy(100, 0);
+
   }
 
   setInterval(drawLanguage, 1900);
+
 });

@@ -23,13 +23,14 @@
   height:100vh;
   /*width:50%;*/
   position: relative;
+  overflow-y: scroll;
 }
 
 .inner{
   position:absolute;
   width:50%;
   height:50%;
-  /*margin: -50px 0 0 -50px;*/
+  margin: 0 0 0 -50px;
   left: 50%;
   top: 35%;
 }
@@ -58,10 +59,16 @@ p{
   font-size: 16pt;
 }
 
-
+.second .inner{
+  left: 25%;
+  width:70%;
+}
 
 .language{
   z-index: -1;
   font-size: 21pt;
   position: absolute;
 }
+
+/***************************************/
+
