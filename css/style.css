@@ -32,12 +32,13 @@ a{
 }
 
 .inner{
-  position:absolute;
-  width:50%;
-  height:50%;
-  margin: 0 0 0 -50px;
-  left: 50%;
-  top: 35%;
+  position:relative;
+  width:70%;
+  height:auto;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  left: 40%;
+  top: 25%;
 }
 
 #me p{
@@ -57,7 +58,7 @@ a{
 }
 
 /************/
-@media only screen annd (min-device-width: 1200) {
+@media only screen annd (min-device-width: 1200px) {
   h1{
     font-size: 45pt;
   }

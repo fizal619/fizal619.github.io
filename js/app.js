@@ -27,8 +27,8 @@ $(function(){
     });
 
     //scroll
-    let projects = document.querySelector('#projects')
-    projects.scrollBy(100, 0);
+    // let projects = document.querySelector('#projects')
+    // projects.scrollBy(100, 0);
 
   }
 
