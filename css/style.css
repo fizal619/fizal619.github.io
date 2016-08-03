@@ -56,6 +56,18 @@ a{
 
 }
 
+/************/
+@media screen {
+  h1{
+    font-size: 45pt;
+  }
+
+  p{
+    font-size: 24pt;
+  }
+}
+/************/
+
 h1{
   font-size: 30pt;
 }
