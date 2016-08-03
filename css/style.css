@@ -89,6 +89,17 @@ p{
   border-radius:5px;
 }
 
+.android{
+  height: 40vh;
+  width:auto;
+  margin: 0 auto;
+  align: center;
+  left:50%;
+  transform: translateX(-50%);
+  position: relative;
+
+}
+
 #projects h3{
   text-align: center;
 }
