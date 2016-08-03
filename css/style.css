@@ -57,7 +57,7 @@ a{
 }
 
 /************/
-@media screen {
+@media only screen annd (max-device-width: 768px) {
   h1{
     font-size: 45pt;
   }
