@@ -58,7 +58,7 @@ a{
 }
 
 /************/
-@media only screen annd (min-device-width: 768px) {
+/*@media only screen annd (min-device-width: 768px) {
   h1{
     font-size: 45pt;
   }
@@ -66,15 +66,15 @@ a{
   p{
     font-size: 24pt;
   }
-}
+}*/
 /************/
 
 h1{
-  font-size: 30pt;
+  font-size: 300%;
 }
 
 p{
-  font-size: 16pt;
+  font-size: 120%;
 }
 
 .second .inner{
@@ -119,7 +119,7 @@ p{
 }
 
 #projects p{
-  font-size: 12pt;
+  font-size: 120%;
 }
 
  .ghlink{
