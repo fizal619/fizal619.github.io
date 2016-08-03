@@ -58,7 +58,7 @@ a{
 }
 
 /************/
-@media only screen annd (min-device-width: 1200px) {
+@media only screen annd (min-device-width: 768px) {
   h1{
     font-size: 45pt;
   }
@@ -78,9 +78,10 @@ p{
 }
 
 .second .inner{
-  left: 25%;
+  left: 50%;
   width:70%;
   top:10%;
+  transform: translateX(-70%);
 }
 
 .language{
