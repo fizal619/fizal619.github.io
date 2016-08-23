@@ -34,4 +34,15 @@ $(function(){
 
   setInterval(drawLanguage, 1900);
 
+  // scroll stuff
+  function scroller(e){
+    console.log('scroll!')
+    $(this).animate({scrollTop: $(this).offset().top},1)
+    $(this).off()
+  }
+
+  $('.second').scroll(scroller)
+
+
+
 });
