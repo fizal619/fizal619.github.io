@@ -37,8 +37,11 @@ $(function(){
   // scroll stuff
   function scroller(e){
     console.log('scroll!')
-    $(this).animate({scrollTop: $(this).offset().top},1)
-    $(this).off()
+    $('.second').animate({scrollTop: 0},1000)
+    $('.second').off()
+    setTimeout(()=>{
+        $('.second').on()
+      }, 2000)
   }
 
   $('.second').scroll(scroller)
