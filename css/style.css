@@ -8,6 +8,10 @@ a{
   text-decoration: none;
 }
 
+.contact{
+ text-align: center;
+}
+
 .contact a{
   margin:10px;
   right:0;
