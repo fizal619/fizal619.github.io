@@ -32,11 +32,7 @@ $(function(){
     console.log('spawned')
   }
 
-  setInterval(drawLanguage, 500);
 
-  // scroll stuff
-  function scroller(e){
-    console.log('scroll!')
 
     var isMobile = {
     Android: function() {
@@ -59,6 +55,13 @@ $(function(){
     }
     };
 
+
+
+
+  // scroll stuff
+  function scroller(e){
+    console.log('scroll!')
+
     if(isMobile.any()){
       $('.first').remove()
     }
@@ -69,6 +72,9 @@ $(function(){
 
   $('.second').scroll(scroller)
 
+  if(!(isMobile.any())){
+    setInterval(drawLanguage, 500);
+  }
 
 
 });
