@@ -3,7 +3,7 @@ $(function(){
   console.log('loaded');
 
   //declare some stuff
-  let languages = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Python', 'Node.js', 'React.js', 'GIT', 'API'];
+  let languages = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Python', 'Node.js', 'React.js', 'GIT', 'API', 'React Native', 'Ruby on Rails', 'Ruby', 'SQL'];
 
 
   //randomly spawn these then fade them out
@@ -16,23 +16,23 @@ $(function(){
   	h2.addClass('language');
 
   	// determine the random x and y
-  	var posX = Math.floor(Math.random() * ($('.first').width() - $('.first').width()/2 - 100 ));
+  	var posX = Math.floor(Math.random() * ($('.first').width() - $('.first').width()/3 - 100 ));
     var posY = Math.floor(Math.random() * ($('.first').height() - 50));
     h2.css('left', posX + 'px');
     h2.css('top', posY + 'px');
 
     // append it
-    $(h2).appendTo('.first').fadeIn(500).delay(5000).fadeOut(500, function() {
+    $(h2).appendTo('.first').fadeIn(500).delay(2000).fadeOut(500, function() {
       $(this).remove();
     });
 
     //scroll
     // let projects = document.querySelector('#projects')
     // projects.scrollBy(100, 0);
-
+    console.log('spawned')
   }
 
-  setInterval(drawLanguage, 1900);
+  setInterval(drawLanguage, 500);
 
   // scroll stuff
   function scroller(e){
