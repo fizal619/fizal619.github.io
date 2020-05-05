@@ -11,21 +11,21 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
-description: Personal blog and resume
+url: https://fizal.me
+baseurl:
+title: Fizal Sarif
+author: Fizal Sarif
+description: Personal blog and portfolio
 avatar: profile.png
-email: yourname@email.com
-github: jekyller/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+email: fizal.sarif@gmail.com
+github: fizal619 # username
+twitter: Fizal619
+linkedin: fizalsarif
+stackoverflow:    #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
-disqus: username
-google_analytics: UA-69391421-1
+disqus:
+google_analytics:
+
+highlighter: rouge
 
 
-# needed for travis-ci build
-exclude: [vendor]
