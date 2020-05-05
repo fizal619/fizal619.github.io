@@ -186,3 +186,11 @@ div.footer{
   padding-bottom: 15px;
 
 }*/
+
+a.btn {
+  color: white;
+}
+
+a.btn:hover {
+  color: white;
+}
