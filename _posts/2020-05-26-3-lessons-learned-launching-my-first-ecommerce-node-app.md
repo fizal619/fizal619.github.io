@@ -24,11 +24,15 @@ At first the prompt sounded simple and I could have probably built it out with 3
 
 ### Lesson 2: Customer Service is Important
 
+<img src="/static/img/customer-service-meme.jpg" alt="customer service meme" width="100%">
+
 I think this project would have grinded to a complete halt if I didn't set deadlines for my client. They're not developers and a mistake I made in the past was letting the client set deadlines. Who better to estimate your work than yourself? Estimation is a very important part of engineering.**I made sure to establish a time and date for the next check in with my clients with what features they can expect to see by then.**
 
 After the initial launch I also made it clear that they can call/email me at anytime with assistance onboarding their students. If this isn't possible for you at least establish service hours (e.g 6pm to 10pm on weekdays). **This was very well received and helped my clients not feel overwhelmed by production bugs whenever they popped up.**
 
 ### Lesson 3: Analytics From Launch
+
+<img src="/static/img/analytics-meme.jpg" alt="analytics meme" width="100%">
 
 This was a lesson learned post launch. My client had sent out emails and wanted to know two things:
 - How many people interacted with the product?
