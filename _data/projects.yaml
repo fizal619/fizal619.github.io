@@ -1,0 +1,11 @@
+
+- name: RGB Invaders
+  description: A clone of the classic arcade game, but with a colorful twist!
+  image: /assets/rgb-invaders.gif
+  url: https://fizal.me/rgb-invaders/
+  repo: https://github.com/fizal619/rgb-invaders
+  tags:
+    - HTML
+    - CSS
+    - JavaScript
+

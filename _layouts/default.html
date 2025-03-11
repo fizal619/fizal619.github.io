@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Fizal Sarif</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+  <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <link rel="stylesheet" href="/assets/main.css">
+  {%- if page.banner %}
+  <link rel="stylesheet" href="/assets/banner.css">
+  {%- endif %}
+</head>
+<body>
+  <div class="banner">
+    <h1>PRESS ENTER</h1>
+  </div>
+
+  <div class="banner mobile-banner">
+    <h1>TAP</h1>
+  </div>
+
+  <div class="content">
+    <div class="flex one two-600 header">
+      <h1><a href="/">FIZAL SARIF</a></h1>
+      <div class="menu flex">
+        <h2>
+          <a href="/projects">Projects</a>
+          <a href="/blog">Blog</a>
+        </h2>
+      </div>
+    </div>
+    <hr/>
+
+    {{ content }}
+
+  </div>
+
+  <script src="/assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.transition-1s {
+  animation: fade-in 2s forwards;
+}
+
+.transition-2s {
+  animation: fade-in 4s forwards;
+}
+
+.transition-3s {
+  animation: fade-in 7s forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.content {
+  display: block;
+  opacity: 0;
+}
+
+.socials {
+  opacity: 0;
+}
+
+.tagline {
+  opacity: 0;
+}
+
+.banner {
+  font-family: "pixel", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 80vh;
+  text-align: center;
+  animation: flash 1s infinite;
+  letter-spacing: 2px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  display: block;
+}
+
+.mobile-banner {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .banner {
+    display: none;
+  }
+  .mobile-banner {
+    display: block;
+  }
+
+}

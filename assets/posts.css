@@ -1,0 +1,15 @@
+
+.post-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.highlight pre, .highlight code, .highlighter-rouge {
+  background: 	#282b30;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
