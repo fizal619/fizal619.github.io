@@ -12,3 +12,18 @@ menuButtons.forEach((button) => {
     button.classList.toggle("active");
   });
 });
+
+
+const yesbtn = document.getElementById("yesbtn");
+const nobtn = document.getElementById("nobtn");
+const banner = document.querySelector(".banner");
+const content = document.querySelector(".content");
+
+yesbtn.addEventListener("click", () => {
+  banner.style.display = "none";
+  content.style.display = "block";
+});
+
+nobtn.addEventListener("click", () => {
+  location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+});

@@ -20,6 +20,11 @@ body {
 h1 {
   font-size: 3rem;
   font-family: pixel;
+  padding: .6em .3em 0;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .portrait {
@@ -63,18 +68,41 @@ h1 {
   color: black;
 }
 
+.content {
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: peachpuff;
+}
+
+.banner .banner-inner {
+  margin-top: 80vh;
+  transform: translateY(-50vh);
+}
+
 @media only screen and (max-width: 600px) {
 
   .page {
-    height: 50vh;
+    height: 55vh;
     padding: 20px 5px;
-    overflow-y: auto;
+    /* overflow-y: auto; */
   }
 
   .innerPage {
     position: relative;
     margin-top: 50%;
     transform: translate(0, -50%);
+  }
+
+  .banner .banner-inner {
+    margin-top: 45vh;
+    transform: translateY(-50%);
   }
 
 }
