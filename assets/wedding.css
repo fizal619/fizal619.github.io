@@ -54,6 +54,10 @@ h2 {
   width: 200px;
 }
 
+.live {
+  background-color: plum !important;
+}
+
 .page {
   display: none;
   padding: 0 50px;

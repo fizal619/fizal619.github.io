@@ -19,9 +19,15 @@ const nobtn = document.getElementById("nobtn");
 const banner = document.querySelector(".banner");
 const content = document.querySelector(".content");
 
+if (localStorage.getItem("secret")){
+  banner.style.display = "none";
+  content.style.display = "block";
+}
+
 yesbtn.addEventListener("click", () => {
   banner.style.display = "none";
   content.style.display = "block";
+  localStorage.setItem("secret", "yes");
 });
 
 nobtn.addEventListener("click", () => {
