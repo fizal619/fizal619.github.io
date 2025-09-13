@@ -50,7 +50,7 @@ http://190.2.212.209:8050/play/a0q3
 #EXTINF:-1 tvg-id="UniversalComedy.us",Universal Comedy (480p)
 http://190.2.212.209:8050/play/a0q4
 #EXTINF:-1 tvg-id="USANetwork.us@East",USA Network (720p)
-http://fl3.moveonjoy.com/USA_NETWORK/index.m3u8
+https://e3.thetvapp.to/hls/USANetworkEast/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="RetroCrush.us@SD",RetroCrush (1080p)
 https://cineverse.g-mana.live/media/ac7cff3c-5bc3-4745-ac4d-56aadb586d00/profile/1/profileManifest.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD",FilmRise Classic TV (720p)
